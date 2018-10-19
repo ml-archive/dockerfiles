@@ -1,4 +1,4 @@
-FROM norionomura/swift:41
+FROM swift:4.2
 
 RUN apt-get update && apt-get install -y wget apt-transport-https software-properties-common python-software-properties && \
 wget -q https://repo.vapor.codes/apt/keyring.gpg -O- | apt-key add - && \
