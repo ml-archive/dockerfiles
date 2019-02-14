@@ -4,7 +4,7 @@ Dockerfiles that ships with dependencies for running Vapor projects (including [
 
 ## Updating the docker images
 
-Currently we have two images:
+Currently we have the following images:
 
 - `Dockerfile-Swift3` which is using Swift 3 and is supposed to be used for Vapor 1 projects. The image is pushed to [here](https://hub.docker.com/r/brettrtoomey/vapor1-ci/).
 - `Dockerfile-Swift4` which is using Swift 4 and is supposed to be used for Vapor 2 projects. The image is pushed to [here](https://hub.docker.com/r/brettrtoomey/vapor-ci/)
