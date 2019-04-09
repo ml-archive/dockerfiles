@@ -10,6 +10,7 @@ Currently we have the following images:
 - `Dockerfile-Swift4` which is using Swift 4 and is supposed to be used for Vapor 2 projects. The image is pushed to [here](https://hub.docker.com/r/brettrtoomey/vapor-ci/)
 - `Dockerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or 3 projects. The image is pushed to [here](https://hub.docker.com/r/nodesvapor/vapor-ci) with tag "swift-4.1".
 - `Dockerfile-Swift4.2` which is using Swift 4.2 (release) and is supposed to be used for Vapor 2 or 3 projects. The image is pushed to [here](https://hub.docker.com/r/nodesvapor/vapor-ci) with tag "swift-4.2".
+- `Dockerfile-Swift5.0` which is using Swift 5.0 (release) and is supposed to be used for Vapor 3 projects.
 
 A guide for building new images based on dockerfiles can be found [here](https://circleci.com/docs/2.0/custom-images/).
 
