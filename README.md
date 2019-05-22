@@ -18,13 +18,19 @@ A guide for building new images based on Dockerfiles can be found [here](https:/
 
 To make it easier to run a Vapor app through a Docker container, we have the following Dockerfiles for guidance:
 
-- `Hosting/Docilerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
+- `Hosting/Dockerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
+- `Hosting/Dockerfile-Swift4.2` which is using Swift 4.2 and is supposed to be used for Vapor 2 or Vapor 3 projects.
+
+Further, we have the following Docker Compose files for spinning up full environments including database and Redis:
+
+- `Hosting/docker-compose-mysql.yml` which is using MySQL 5.7 and the latest version of Redis.
 
 ## 👌 Testing
 
 To make it easier to test Vapor apps locally on Linux using Docker, we have made the following Dockerfiles:
 
 - `Testing/Dockerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
+- `Testing/Dockerfile-Swift4.2` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
 
 ## 🏆 Credits
 
