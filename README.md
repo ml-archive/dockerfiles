@@ -10,17 +10,17 @@ Currently we have the following images:
 - `Dockerfile-Swift4.2` which is using Swift 4.2 (release) and is supposed to be used for Vapor 2 or 3 projects. The image is pushed to [here](https://hub.docker.com/r/nodesvapor/vapor-ci) with tag "swift-4.2".
 - `Dockerfile-Swift5` which is using Swift 5.0 and is supposed to be used for Vapor 3 or 4 projects. The image is pushed to [here](https://hub.docker.com/r/nodesvapor/vapor-ci) with tag "swift-5.0".
 
-## Updating the docker images
+## 🛠 Updating the Docker images
 
-A guide for building new images based on dockerfiles can be found [here](https://circleci.com/docs/2.0/custom-images/).
+A guide for building new images based on Dockerfiles can be found [here](https://circleci.com/docs/2.0/custom-images/).
 
-## Hosting
+## ☁️ Hosting
 
 To make it easier to run a Vapor app through a Docker container, we have the following Dockerfiles for guidance:
 
 - `Hosting/Docilerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
 
-## Testing
+## 👌 Testing
 
 To make it easier to test Vapor apps locally on Linux using Docker, we have made the following Dockerfiles:
 
