@@ -1,5 +1,5 @@
 # Remember to pick the correct Swift version
-FROM swift:4.1 as builder
+FROM swift:4.2.2 as builder
 WORKDIR /app/
 COPY . .
 
@@ -29,7 +29,6 @@ RUN \
 WORKDIR /app/
 COPY --from=builder /build/bin .
 COPY --from=builder /build/lib/* /usr/lib/
-COPY --from=builder /app/Config ./Config
 COPY --from=builder /app/Resources ./Resources
 COPY --from=builder /app/Public ./Public
 EXPOSE 8080
