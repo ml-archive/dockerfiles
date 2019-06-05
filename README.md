@@ -20,6 +20,7 @@ To make it easier to run a Vapor app through a Docker container, we have the fol
 
 - `Hosting/Dockerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
 - `Hosting/Dockerfile-Swift4.2` which is using Swift 4.2 and is supposed to be used for Vapor 2 or Vapor 3 projects.
+- `Hosting/Dockerfile-Swift5.0` which is using Swift 5.0 and is supposed to be used for Vapor 3 or Vapor 4 projects.
 
 Further, we have the following Docker Compose files for spinning up full environments including database and Redis:
 
