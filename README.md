@@ -33,6 +33,20 @@ To make it easier to test Vapor apps locally on Linux using Docker, we have made
 - `Testing/Dockerfile-Swift4.1` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
 - `Testing/Dockerfile-Swift4.2` which is using Swift 4.1 and is supposed to be used for Vapor 2 or Vapor 3 projects.
 
+## 🌳 Environment variables
+
+Environment variables are supported in Docker. Please read the [docs regarding environment variables](https://docs.docker.com/compose/environment-variables/) for info regarding how to configure them.
+
+In short composer prioritizes environment variables in the following order:
+
+ 1. Compose file
+ 2. Shell environment variables
+ 3. Environment file
+ 4. Dockerfile
+ 5. Variable is not defined
+
+If you want to use a `.env`-file, make sure to remove the environment section in your docker-compose file as described in the docs, referenced above.
+
 ## 🏆 Credits
 
 This package is developed and maintained by the Vapor team at [Nodes](https://www.nodesagency.com).
